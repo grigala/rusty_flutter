@@ -1,0 +1,12 @@
+[package]
+name = "rusty_flutter"
+version = "0.1.0"
+authors = ["grigala"]
+edition = "2018"
+
+[lib]
+name = "rusty_flutter"
+crate-type = ["cdylib"]
+
+[dependencies]
+rodio = "0.16.0"
